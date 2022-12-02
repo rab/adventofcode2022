@@ -22,6 +22,7 @@ else
 end
 
 part1 = 0
+part2 = nil
 input.each_line(chomp: true) do |line|
   puts line if debugging
 end

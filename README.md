@@ -19,6 +19,7 @@ My Personal [Leaderboard] stats:
 <pre>
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+  2   12:48:35  93920      0   13:34:15  90202      0
   1   10:12:44  71607      0   10:16:09  67717      0
 </pre>
 

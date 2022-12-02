@@ -140,7 +140,7 @@ input.each_line(chomp: true) do |line|
   oppo = plays1[oppo]
   mine1 = plays1[mine]
   mine2 = plays2[[oppo,mine]]
-  puts "#{oppo} #{mine1} => #{outcome[[oppo,mine1]]}"
+  puts "#{oppo} #{mine1} => #{outcome[[oppo,mine1]]}" if debugging
   part1 += scores[mine1] + scores[outcome[[oppo,mine1]]]
   part2 += scores[mine2] + scores[outcome[[oppo,mine2]]]
 end
